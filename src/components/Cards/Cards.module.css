@@ -1,0 +1,44 @@
+.card{
+    display: flex;
+    flex-direction: column;
+    /* padding : 20px; */
+    
+}
+.loading {
+    margin-left: 150px;
+}
+
+.infected{
+
+    /* box-shadow : 4px 4px 4px darkblue !important; */
+    border-bottom: 4px solid #cc1232;
+    margin : 6px 6px !important;
+    background-color: snow !important;
+    border-radius: 10% !important;
+    cursor : pointer;
+    /* box-sizing : border-box !important; */
+}
+
+.recovered{
+
+    border-bottom: 4px solid #7dd71d;
+    margin : 6px 6px !important;
+    background-color: snow !important;
+    border-radius: 10% !important;
+    cursor : pointer;
+}
+
+.deaths{
+
+    border-bottom: 4px solid #fb4443;
+    margin : 6px 6px !important;
+    background-color: snow !important;
+    border-radius: 10% !important;
+    cursor : pointer;
+}
+
+/* @media (max-width : 700px){
+    .loading{
+        margin-left: 0px;
+    }
+} */

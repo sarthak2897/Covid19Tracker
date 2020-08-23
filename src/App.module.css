@@ -1,0 +1,61 @@
+body {
+    box-sizing: border-box;
+    background-color: aliceblue; 
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.image{
+    width : 400px;
+    height : 200px;
+    margin-bottom : 20px;
+
+}
+
+.layout{
+    display: flex;
+    flex-direction: row;
+}
+
+.header{
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card{
+    display : flex;
+    flex : 25%;
+    align-items: center;
+}
+
+.main{
+    display:flex;
+    flex-direction:row;
+    justify-content: space-around;
+    align-items:center;
+}
+
+.mapArea{
+    flex : 75%;
+    align-items : center;
+    justify-content: center;
+}
+
+@media (max-width : 700px) {
+    .header{
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+    .main{
+        flex-direction: column;
+    }
+}

@@ -1,0 +1,41 @@
+.map{
+    height : 400px;
+    margin : 20px;
+    padding: 10px;
+    border-radius: 20px;
+    box-shadow: 0 0 8px -4px rgba(0,0,0,0.5);
+}
+
+ /* .leaflet-container {
+    height: 100%;
+}  */
+
+.popupcontainer{
+    width : 120px;
+}
+
+
+.popupflag {
+    
+    height : 60px;
+    width : 80%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-bottom: 5px;
+
+}
+
+
+
+.popuptext{
+    font-size : 14px;
+    margin-top: 5px;
+}
+
+
+@media (max-width : 700px){
+        .map{
+            width : 300px;
+            align-items: center;
+        }   
+}
